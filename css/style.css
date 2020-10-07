@@ -1,0 +1,43 @@
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 0 4px 4px #0004;
+    width: 15ch;
+}
+
+.header {
+    height: 50vh;
+    background: linear-gradient(to right bottom, #ff4f4f, #ff7d1b);
+    color: white;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 4px #0004;
+    text-align: center;
+}
+
+.profile {
+    position: relative;
+    top: -75px;
+    border: 5px dotted greenyellow;
+    text-align: center;
+}
+
+.profile__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    box-shadow: 0 4px 4px #0004;
+}
+
+.profile__copy {
+    margin: 32px auto;
+    max-width: 75ch;
+}
