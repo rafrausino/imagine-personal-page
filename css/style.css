@@ -40,4 +40,15 @@ h1 {
 .profile__copy {
     margin: 32px auto;
     max-width: 75ch;
+    font-style: italic;
+}
+
+.profile__social {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    list-style: none;
 }
